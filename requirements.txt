@@ -1,4 +1,0 @@
-pandas
-google-cloud-compute
-google-cloud-storage
-openpyxl
