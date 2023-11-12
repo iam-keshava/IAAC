@@ -6,7 +6,7 @@ provider "aws" {
 terraform {
   backend "s3" {
     bucket  = "statefile-bucket-terraraja"
-    key     = "terraform.tfstate"
+    key     = "terra-state-file"
     region  = "ap-south-1" # Specify the AWS region for your S3 bucket
     encrypt = true
     # dynamodb_table = "terraform-lock-table"  # Optional: Use DynamoDB for state locking
